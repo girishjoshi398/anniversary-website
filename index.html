@@ -10,40 +10,76 @@
       font-family: 'Segoe UI', sans-serif;
       color: #333;
       text-align: center;
-      padding: 50px;
+      padding: 20px;
     }
+
     h1 {
-      font-size: 3em;
+      font-size: 2.5em;
       color: #d63384;
+      margin-top: 20px;
     }
+
     p {
-      font-size: 1.5em;
-      margin: 20px 0;
+      font-size: 1.2em;
+      margin: 15px 10px;
     }
+
     .heart {
-      font-size: 5em;
+      font-size: 4em;
       color: #e63946;
       animation: pulse 1.5s infinite;
     }
+
     @keyframes pulse {
       0% { transform: scale(1); }
       50% { transform: scale(1.2); }
       100% { transform: scale(1); }
     }
+
+    img {
+      width: 90%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 20px;
+      margin: 20px 0;
+    }
+
     .footer {
-      margin-top: 50px;
+      margin-top: 40px;
       font-size: 1em;
-      color: #777;
+      color: #555;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 1em;
+      }
+
+      .heart {
+        font-size: 3em;
+      }
     }
   </style>
 </head>
-<div class="heart">❤️</div>
-<h1>Happy Anniversary AAI & BABA..!</h1>
 
-<!-- Add the image here -->
-<img src="AnniversaryPIC.jpg" alt="Anniversary Greeting" style="max-width: 50%; height: 30%; border-radius: 20px; margin: 20px 0;"/>
+<body>
+  <div class="heart">❤️</div>
+  <h1>Happy Anniversary AAI & BABA..!</h1>
 
-<p>Wishing you both a lifetime of love, laughter, and happiness together.</p>
-<p>May your journey be filled with unforgettable memories and endless joy!</p>
-<div class="footer">With Love <br> From: @urstrulyGirish</div>
+  <!-- Image -->
+  <img src="AnniversaryPIC.jpg" alt="Anniversary Greeting" />
+
+  <p>Wishing you both a lifetime of love, laughter, and happiness together.</p>
+  <p>May your journey be filled with unforgettable memories and endless joy!</p>
+
+  <div class="footer">
+    With Love <br>
+    From: @urstrulyGirish
+  </div>
+</body>
 </html>
